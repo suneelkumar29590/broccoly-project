@@ -1,0 +1,41 @@
+POST http://localhost:3001/Register
+Content-Type: application/json
+
+{
+"gender":"mr",
+"FirstName":"kera",
+"SurName":"jones",
+"email":"kera@gmail.com",
+"password":"kera@123"
+}
+###
+POST http://localhost:3001/Login
+Content-Type: application/json
+
+{
+"email":"kera@gmail.com",
+"password":"kera@123"
+}
+
+
+###
+POST http://localhost:3001/dietplan/
+Content-Type: application/json
+
+{
+"type_of_person":"female", 
+"type_of_plan":"Lose11-13stone",
+"amount":"20" 
+
+}
+
+###
+POST http://localhost:3001/orderplan/
+Content-Type: application/json
+
+{
+"type_of_food":"lunch", 
+"selected_item":"Original Porridge Oats",
+"no_of_selected_items":"2" 
+
+}
