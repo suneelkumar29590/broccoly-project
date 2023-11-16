@@ -39,3 +39,6 @@ Content-Type: application/json
 "no_of_selected_items":"2" 
 
 }
+
+###
+GET http://localhost:3001
